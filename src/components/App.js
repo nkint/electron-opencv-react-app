@@ -38,14 +38,16 @@ export default class App extends React.Component {
   render() {
     console.log('image:', this.state.image);
     return (
-      <div>
+      <div className="code pa2 ma2">
         <h2>
           Electron Opencv React App
         </h2>
         {
-          items.map((item, i) => <p key={i}>{item}</p>)
+          items.map((item, i) => <p className="pa0 ma0" key={i}>{item}</p>)
         }
-        <div><canvas ref={(canvas) => { this.canvas = canvas }}></canvas></div>
+        <div className="pv2 mv2">
+          <canvas ref={(canvas) => { this.canvas = canvas }}></canvas>
+        </div>
       </div>
     )
   }

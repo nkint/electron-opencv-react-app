@@ -23,6 +23,7 @@
     "lodash": "^4.17.4",
     "opencv4nodejs": "^2.26.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "tachyons": "^4.9.0"
   }
 }
