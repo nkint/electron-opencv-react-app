@@ -5,8 +5,11 @@
   "license": "MIT",
   "scripts": {
     "start": "accurapp-scripts start",
-    "build": "accurapp-scripts build"
+    "build": "accurapp-scripts build",
+    "electron": "electron .",
+    "electron-rebuild": "electron-rebuild -w opencv4nodejs"
   },
+  "main": "src/electron-starter.js",
   "devDependencies": {
     "accurapp-scripts": "^3.2.7",
     "eslint-config-accurapp": "^3.0.1",
@@ -14,6 +17,7 @@
   },
   "dependencies": {
     "d3": "^4.12.0",
+    "electron": "^1.7.9",
     "lodash": "^4.17.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
