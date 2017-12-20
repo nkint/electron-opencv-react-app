@@ -22,6 +22,8 @@ Install on mac
 brew tap homebrew/science
 brew install opencv
 yarn
+yarn electron-rebuild
+yarn start
 ```
 
 
